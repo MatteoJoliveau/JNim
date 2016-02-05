@@ -5,14 +5,20 @@ public class NimGame
 	private NimPlayer player1, player2, currentPlayer, nextPlayer;
 	private NimMarbles marbleStack;
 	
-	public NimGame()
+	public NimGame(NimPlayer p1, NimPlayer p2)
 	{
 		this.marbleStack = new NimMarbles();
 		Random rand = new Random();
 		if(rand.nextBoolean())
-			this.nextPlayer = player1;
+		{
+			this.nextPlayer = p1;
+			//System.out.println(nextPlayer); //debug
+		}
 		else 
-			this.nextPlayer = player2;
+		{
+			this.nextPlayer = p2;
+			//System.out.println(nextPlayer); //debug
+		}	
 	}
 	
 	public boolean isGameOver()
