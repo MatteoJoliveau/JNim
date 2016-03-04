@@ -7,7 +7,7 @@ It features IA vs IA, IA vs Player and PvP game modes.
 <h3>Game Modes</h3>
 - IA vs IA easy (since 0.1)
 - IA vs IA hard (WIP)
-- IA vs Player easy (WIP)
+- IA vs Player easy (since 0.3)
 - IA vs Player hard (WIP)
 - Player vs Player 
 
