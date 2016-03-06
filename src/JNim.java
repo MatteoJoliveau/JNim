@@ -4,7 +4,7 @@ public class JNim
 {
 	public static void main(String[] args)
 	{
-		String ver = "0.1";
+		String ver = "0.3.1";
 		Scanner in = new Scanner(System.in);
 		
         System.out.println("\n--------------------------------------------");
@@ -70,7 +70,7 @@ public class JNim
 			  }
 		}
 		
-		if(gameState == 101)
+		if(game.getNextPlayer()==p1)
 			System.out.println("\n" + p1.toString() + " won the game!");
 		else
 			System.out.println("\n" + p2.toString() + " won the game!");
@@ -106,8 +106,8 @@ public class JNim
                 Thread.currentThread().interrupt();  
               }
         }
-        if(gameState == 102)
-			System.out.println("\n" + p1.toString() + " won the game!");
+        if(game.getNextPlayer() == p1)
+            System.out.println("\n" + p1.toString() + " won the game!");
 		else
 			System.out.println("\n" + p2.toString() + " won the game!");
     }
