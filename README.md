@@ -8,10 +8,11 @@ It features IA vs IA, IA vs Player and PvP game modes.
 - IA vs IA hard (WIP)
 - IA vs Player easy (since 0.3)
 - IA vs Player hard (WIP)
-- Player vs Player 
+- Player vs Player (since 0.3.5) 
 
 <h3>Copyright Notice</h3>
-Copyright 2016 Matteo Joliveau
+Copyright 2016 Matteo Joliveau - All rights reserved, usage of this software is regulated by 
+the Apache 2.0 licence.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
