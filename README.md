@@ -1,6 +1,5 @@
 # JNim
 
-<h2>JNim</h2>
 This is a Java powered game that lets you play Nim, a game about pulling marbles out of a sack and try not to be the last to pick.
 It features IA vs IA, IA vs Player and PvP game modes.
 
