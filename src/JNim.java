@@ -49,6 +49,7 @@ public class JNim
             }
             case(15):
             {
+                in.close();
                 System.exit(0);
                 break;
             }
@@ -94,6 +95,7 @@ public class JNim
         Scanner in = new Scanner(System.in);
         System.out.print("\nInsert your UserName: ");
         String nome = in.next();
+        in.close();
         NimHumanPlayer p1 = new NimHumanPlayer(nome);
         NimNonExpertPlayer p2 = new NimNonExpertPlayer("Albert");
         
@@ -133,6 +135,7 @@ public class JNim
         String nameP1 = in.next();
         System.out.print("\nPlayer 2: ");
         String nameP2 = in.next();
+        in.close();
         NimHumanPlayer p1 = new NimHumanPlayer(nameP1);
         NimHumanPlayer p2 = new NimHumanPlayer(nameP2);
         
@@ -169,6 +172,7 @@ public class JNim
         Scanner in = new Scanner(System.in);
         System.out.print("\nInsert your UserName: ");
         String nome = in.next();
+        in.close();
         NimHumanPlayer p1 = new NimHumanPlayer(nome);
         NimExpertPlayer p2 = new NimExpertPlayer("Edward");
         
